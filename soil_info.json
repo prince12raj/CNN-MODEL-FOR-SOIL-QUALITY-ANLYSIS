@@ -1,0 +1,103 @@
+{
+    "Black_Soil": {
+        "crops": [
+            "Cotton",
+            "Soybean",
+            "Wheat",
+            "Sugarcane"
+        ],
+        "water": "Moderate Water Required",
+        "ph": "6.5 - 8.5",
+        "nutrients": [
+            "Potassium",
+            "Lime",
+            "Iron"
+        ]
+    },
+    "Red_Soil": {
+        "crops": [
+            "Groundnut",
+            "Millets",
+            "Potato",
+            "Rice"
+        ],
+        "water": "Medium Water Required",
+        "ph": "5.5 - 7.0",
+        "nutrients": [
+            "Nitrogen",
+            "Phosphorus",
+            "Organic Compost"
+        ]
+    },
+    "Alluvial_Soil": {
+        "crops": [
+            "Rice",
+            "Sugarcane",
+            "Wheat",
+            "Maize"
+        ],
+        "water": "High Water Required",
+        "ph": "6.0 - 8.0",
+        "nutrients": [
+            "Potash",
+            "Phosphorus",
+            "Humus"
+        ]
+    },
+    "Arid_Soil": {
+        "crops": [
+            "Barley",
+            "Millets",
+            "Maize"
+        ],
+        "water": "Low Water Required",
+        "ph": "7.0 - 9.0",
+        "nutrients": [
+            "Organic Matter",
+            "Nitrogen"
+        ]
+    },
+    "Laterite_Soil": {
+        "crops": [
+            "Tea",
+            "Coffee",
+            "Rubber",
+            "Coconut"
+        ],
+        "water": "Moderate Water Required",
+        "ph": "4.5 - 6.5",
+        "nutrients": [
+            "Lime",
+            "Phosphate",
+            "Organic Fertilizer"
+        ]
+    },
+    "Mountain_Soil": {
+        "crops": [
+            "Tea",
+            "Coffee",
+            "Spices",
+            "Apple"
+        ],
+        "water": "Moderate Water Required",
+        "ph": "5.0 - 6.5",
+        "nutrients": [
+            "Humus",
+            "Nitrogen",
+            "Organic Compost"
+        ]
+    },
+    "Yellow_Soil": {
+        "crops": [
+            "Groundnut",
+            "Potato",
+            "Rice"
+        ],
+        "water": "Moderate Water Required",
+        "ph": "5.5 - 7.5",
+        "nutrients": [
+            "Nitrogen",
+            "Organic Matter"
+        ]
+    }
+}
