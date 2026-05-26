@@ -6,88 +6,127 @@ This project helps identify soil types from images and provides smart agricultur
 
 ---
 
-## 🚀 Live Demo
+# 🚀 Live Deployments
 
-🌐 Deployed Project: https://smart-agriculture-y8c4.onrender.com/
+## 🌐 Main Web Application
+https://smart-agriculture-y8c4.onrender.com/
+
+## 🤖 Hugging Face API
+https://prince12raj-soil-analysis-api.hf.space/
 
 ---
 
-## 🚀 Features
+# 📌 Project Overview
+
+The project uses a CNN (Convolutional Neural Network) model trained on soil image datasets to classify different soil types accurately.
+
+Based on the predicted soil type, the system provides:
+
+- Recommended crops
+- Water requirements
+- Soil pH recommendations
+- Smart agriculture insights
+
+This project aims to support precision farming and AI-powered agriculture solutions.
+
+---
+
+# 🚀 Features
 
 - Soil image classification using CNN
-- Predicts soil type from uploaded image
-- Crop recommendation system
+- Deep learning based prediction system
+- Smart crop recommendation
 - Water requirement suggestion
-- Soil pH range recommendation
-- Deep Learning model trained using TensorFlow/Keras
-- Easy deployment using Flask/Streamlit/Gradio
+- Soil pH recommendation
+- Fast API deployment using Hugging Face
+- Web application deployment using Render
+- User-friendly interface
+- High prediction accuracy
 
 ---
 
-## 🧠 Technologies Used
+# 🧠 Technologies Used
 
 - Python
-- TensorFlow / Keras
+- TensorFlow
+- Keras
 - CNN (Convolutional Neural Network)
 - NumPy
 - Pandas
-- Matplotlib
 - OpenCV
+- Matplotlib
 - Scikit-learn
 - Flask / Gradio
+- Hugging Face Spaces
+- Render
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```bash
 soil-cnn-model/
-│── dataset/
-│── model/
-│── app.py
-│── train.py
-│── predict.py
-│── requirements.txt
-│── README.md
-│── saved_model/
-│── images/
+│
+├── dataset/
+├── saved_model/
+├── images/
+├── app.py
+├── train.py
+├── predict.py
+├── requirements.txt
+├── README.md
+│
+└── model/
 ```
 
 ---
 
-## 📊 Soil Types Supported
+# 📊 Soil Types Supported
 
 - Black Soil
 - Red Soil
-- Alluvial Soil
-- Clay Soil
 - Sandy Soil
+- Clay Soil
+- Alluvial Soil
 
 ---
 
-## 🌾 Output Example
+# 🌾 Output Example
 
 ```text
+===================================
+      SOIL ANALYSIS REPORT
+===================================
+
 Predicted Soil Type : Black Soil
 
 Confidence Score : 99.15%
 
-Recommended Crops :
+===================================
+Recommended Crops
+===================================
+
 - Cotton
 - Soybean
 - Wheat
 - Sugarcane
 
-Water Requirement :
+===================================
+Water Requirement
+===================================
+
 Moderate Water Required
 
-Recommended Soil pH Range :
+===================================
+Recommended Soil pH Range
+===================================
+
 6.5 - 8.0
 ```
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Installation
 
 Clone the repository:
 
@@ -104,7 +143,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Training the Model
+# ▶️ Train the CNN Model
 
 ```bash
 python train.py
@@ -112,13 +151,15 @@ python train.py
 
 ---
 
-## 🔍 Predict Soil Type
+# 🔍 Predict Soil Type
 
 ```bash
 python predict.py
 ```
 
-Run the web application:
+---
+
+# 🌐 Run Web Application
 
 ```bash
 python app.py
@@ -126,50 +167,93 @@ python app.py
 
 ---
 
-## 🧪 Model Architecture
+# 🤖 API Usage
 
-The CNN model includes:
+The deployed Hugging Face API can be used for:
 
-- Convolution Layers
+- Soil image prediction
+- AI model inference
+- External application integration
+- Smart farming systems
+- Agriculture AI automation
+
+API URL:
+
+```text
+https://prince12raj-soil-analysis-api.hf.space/
+```
+
+---
+
+# 🧪 CNN Model Architecture
+
+The model includes:
+
+- Convolutional Layers
 - MaxPooling Layers
 - Dropout Layers
-- Dense Neural Network Layers
+- Dense Layers
+- Activation Functions
 - Softmax Output Layer
 
 ---
 
-## 📈 Future Improvements
+# 📈 Future Improvements
 
-- Add more soil classes
+- Add fertilizer recommendation system
+- Add disease detection
+- Improve dataset size
 - Real-time mobile deployment
-- Integrate weather API
-- Fertilizer recommendation system
-- Disease detection support
+- Weather API integration
+- Multi-language support
+- IoT integration for smart farming
 
 ---
 
-## 🤝 Contributing
+# 📸 Screenshots
+
+Add screenshots of:
+- Web interface
+- Prediction results
+- Training accuracy graphs
+- Soil image samples
+
+---
+
+# 🤝 Contributing
 
 Contributions are welcome.
+
+## Steps to contribute:
 
 1. Fork the repository
 2. Create a new branch
 3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
+4. Push the branch
+5. Create a Pull Request
 
 ---
 
-## 📜 License
+# 📜 License
 
 This project is open-source and available under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Prince Raj**  
-B.Tech CSE (2027 Passout)  
+## Prince Raj
+B.Tech CSE (2027 Passout)
+
 SMART Agriculture AI Project
 
-GitHub: https://github.com/prince12raj
+### GitHub
+https://github.com/prince12raj
+
+---
+
+# ⭐ Support
+
+If you like this project, please give it a ⭐ on GitHub.
+
+---
